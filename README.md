@@ -6,7 +6,10 @@ Accurate fiducial point detection in ECG signals is a challenging problem given 
 
 Relatively good performance received on this dataset. Performance reported in the paper is on signals with 360 and 128 sampling frequency that are relatively simple. However, in Normative conditions, this approch performed pretty well, not so in signnals from patients with known heart conditions. Although strict signal processing based approches with threholds as in this paper typically do not generalize well, they can be used if we cannot afford the cost of well generalizable machine learning models.
 
-**A few sample results are in sample_results directory** 
+**A few more result images are in sample_results directory**  
+<p align="center">
+<img src="https://github.com/jaideepmurkute/Phasor-Transform-for-Automatic-Delineation-of-Single-lead-ECG-Fiducial-Points/blob/master/sample_results/result_1.png" width="500" height="400" align="center">
+</p>
 
 **Performance Summary on Normative signals:**
 
