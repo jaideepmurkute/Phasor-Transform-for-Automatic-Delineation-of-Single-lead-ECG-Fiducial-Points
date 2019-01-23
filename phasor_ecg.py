@@ -7,7 +7,6 @@ from scipy.signal import filtfilt
 from os import listdir
 from os.path import isfile, join
 import os
-from tqdm import tqdm
 import warnings
 warnings.filterwarnings(action='ignore')
 import sys
