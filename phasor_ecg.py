@@ -464,8 +464,8 @@ def martinez(mypath, mode):
     print("sd qrs_off_errors: ", np.std(qrs_off_errors))
     
     
-    print("mean t_on_errors: ",np.mean(t_on_errors))
-    print("sd t_on_errors: ", np.std(t_on_errors))
+    print("mean t_peak_errors: ",np.mean(t_on_errors))
+    print("sd t_peak_errors: ", np.std(t_on_errors))
     
     print("mean t_off_errors: ",np.mean(t_off_errors))
     print("sd t_off_errors: ", np.std(t_off_errors))
