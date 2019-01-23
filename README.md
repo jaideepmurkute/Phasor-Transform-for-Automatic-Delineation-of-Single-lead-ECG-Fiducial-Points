@@ -25,7 +25,7 @@ mean t_off_errors:  16.386058981233244
 sd t_off_errors:  46.85561667175976  
 
 
-qrs_sens:  0.9690527857077808 #Sensitivity of QRS wave detection
+qrs_sens:  0.9690527857077808 #Sensitivity of QRS wave detection  
 qrs_pp:  0.84611016864457 #Positive Predictivity of QRS wave detection  
 
 
