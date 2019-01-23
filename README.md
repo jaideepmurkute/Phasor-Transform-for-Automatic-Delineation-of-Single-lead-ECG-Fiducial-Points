@@ -6,6 +6,8 @@ Accurate fiducial point detection in ECG signals is a challenging problem given 
 
 Relatively good performance received on this dataset. Performance reported in the paper is on signals with 360 and 128 sampling frequency that are relatively simple. However, in Normative conditions, this approch performed pretty well, not so in signnals from patients with known heart conditions. Although strict signal processing based approches with threholds as in this paper typically do not generalize well, they can be used if we cannot afford the cost of well generalizable machine learning models.
 
+**A few sample results are in sample_results directory** 
+
 **Performance Summary on Normative signals:**
 
 **Mean and standard deviations of fiducial points detected: q_onset, r_peak, s_end, t_peak, t_end.**  
@@ -36,5 +38,10 @@ t_pp:  0.8990215369063009 #Positive Predictivity of T wave detection
 ***Accuracy of QTc interval**  
 
 mean QTc_error:  2.213326260496839  
-
 sd QTc error:  12.816471937185646  
+
+**Dependencies**  
+Python : 3.6.5  
+sklearn : 0.20.0  
+numpy : 1.15.3  
+matplotlib : 3.0.1  
