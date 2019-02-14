@@ -46,5 +46,6 @@ sd QTc error:  12.816471937185646
 **Dependencies**  
 Python : 3.6.5  
 sklearn : 0.20.0  
+scipy : 1.1.0  
 numpy : 1.15.3  
 matplotlib : 3.0.1  
